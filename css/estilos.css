@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+.carousel-inner a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand .imgnav {
+    width: 140px;
+    height: auto;
+}
+
+.bg-marleen1 {
+    background-color: #F3E821;
+}
+
+.promotop{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-promotop {
+    background-color: #FC6701;
+}
+
+.carousel-item {
+    max-height: 36em;
+    align-items: center;
+}
+
+.bg-cards {
+    background-color: #F3E821;
+}
+
+.imglogo{
+    max-width: 175px;
+}
+
+#navbarNav ul li{
+    color: #121212 !important;
+}
+
+
+/* ====CARDS====*/
+
+.cardsindex{
+
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-marleen{
+    color: #fff;
+    
+}
+
+.cardcontenedor {
+
+    background-image: url(../img/bkgnd/backgr.png);
+    background-repeat: repeat;
+    background-position: fixed;
+}
+
+#cards-index .card-body {
+     
+    background-color: rgba(243, 232, 33, .9);
+
+}
+
+
+/*====CARDS====*/
+
+/*========== SECCION 3 ==========*/
+
+.seccion3 {
+     text-align: center;
+     background-image: url(../img/bkgnd/backgr.png);
+     background-repeat: repeat;
+     background-position: fixed;
+     justify-content: space-between;
+     margin: auto;
+}
+
+.figure-img{
+    max-width: 28em !important;
+}
+
+.card-contacto {
+    background-color: #1DB954;
+}
+
+#contacto-index .card-body{
+    background-color: #1DB954;
+}
+
+/*inicia footer*/
+footer{
+	width: 100%;
+	max-height: 300px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	padding: 2rem;
+	background-color: rgba(14, 14, 14, .8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footerlogo {
+	height: 50px;
+	margin-bottom: 1rem;
+
+}
+
+.redes-iconos-contenedor, .footer-menu-contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+
+.redes-iconos{
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	border: 1px solid rgb(83, 83, 83);
+	background-image: url(../img/face.png);
+	background-position: center;
+	background-size: 40%;
+	background-repeat: no-repeat;
+	margin: .5rem;
+}
+
+.redes-iconos:hover{
+	background-color: #121212;
+	filter: invert(1);
+}
+
+.redes-iconos:nth-of-type(1){
+	background-image: url(../img/whatsblanco.png);
+}
+.redes-iconos:nth-of-type(2){
+	background-image: url(../img/fblanco.png);
+}
+.redes-iconos:nth-of-type(3){
+	background-image: url(../img/instablanco.png);
+}
+
+.footer-menu-contenedor{
+	list-style-type: none;
+	color: #f2f2f2;
+	font-size: 1.2rem;
+}
+.menu-item{
+	margin: 1rem 1.5rem;
+	cursor: pointer;
+	opacity: .6;
+
+}
+.menu-item:hover{
+	opacity: 1;
+}
+
+.copyright{
+	color: #f2f2f2;
+	opacity: .3;
+	text-align: center;
+}
+
+/*fin footer*/
+
+/* ========================= */
+/* MEDIA QUERIES*/
+/* ========================= */
+
+@media screen and (min-width: 768px) {
+
+   .carousel-indicators{
+       display: none !important;
+   }
+
+}
+
+
+
+
+
+
+/* ========================= */
+/* MEDIA QUERIES*/
+/* ========================= */
+
+
+
+

@@ -32,12 +32,11 @@ body {
     .navbar ul li {
       list-style: none;
       padding: auto;
-      font-size: 1.3em;
+      font-size: 1.1em;
       transition: all 0.4s ease 0s; }
       .navbar ul li .nav__active {
-        color: #fff;
-        background-color: #0d5727;
-        border-radius: 3px;
+        background-color: #F39F21;
+        border-radius: 2px;
         font-weight: 700; }
       .navbar ul li a {
         text-decoration: none;
@@ -45,7 +44,7 @@ body {
         padding-left: 20px;
         text-transform: uppercase; }
         .navbar ul li a:hover {
-          border-radius: 3px;
+          border-radius: 2px;
           background: #f39f22af;
           font-weight: 700; }
 
@@ -81,6 +80,11 @@ body {
 
 #contenedorLogin {
   background-color: #F39F21; }
+
+#galeria .col-lg-4 img {
+  width: 100%; }
+  #galeria .col-lg-4 img:hover {
+    border: 5px solid #f7f7f7; }
 
 .bg-box1 {
   background-color: #E8F1F5; }
@@ -198,6 +202,77 @@ footer {
   color: #f2f2f2;
   opacity: .3;
   text-align: center; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.sectionFaq {
+  width: 100%;
+  height: 100vh;
+  background-color: #3c4053;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em; }
+  .sectionFaq a {
+    text-decoration: none; }
+
+.container__faq {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem; }
+
+.acordeon-item {
+  background-color: #283042;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: .5rem 2px .5rem #212121; }
+  .acordeon-item:target .respuesta {
+    max-height: 20rem; }
+  .acordeon-item:target .link-acordeon .fa-plus {
+    display: none; }
+  .acordeon-item:target .link-acordeon .fa-minus {
+    display: block; }
+
+.link-acordeon {
+  font-size: 1.6rem;
+  color: #f1f1f1;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0; }
+  .link-acordeon i {
+    color: #e7d5ff;
+    padding: .5rem; }
+  .link-acordeon .fa-minus {
+    display: none; }
+
+.respuesta {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #212838;
+  transition: max-height 650ms; }
+  .respuesta p {
+    color: #e7d5ff;
+    padding: 2rem; }
+  .respuesta::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #F3E821;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); }
 
 .contenedor {
   background-image: url(../img/bkgnd/backgr.png);

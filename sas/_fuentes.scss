@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500;700;800;900&family=Montserrat:wght@100;400;900&display=swap');
+
+$fontMain:'Montserrat', sans-serif;
+$fontSecondary: 'Heebo', sans-serif;
+
+
+
+
+.contenedor {
+    background-image: url(../img/bkgnd/backgr.png);
+    background-position: fixed;
+    margin: auto;
+
+}
+.contenedor .contenedor-imagenes img {
+    width: 22em;
+}
+
+.contenedor .contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

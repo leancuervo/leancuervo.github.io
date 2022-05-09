@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.container {
+    max-width: 1100px;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3E821;
+    background-image: url(../img/bkgnd/backgr.png);
+    background-repeat: repeat;
+}
+
+$mainColor: #F3E821;
+$secondColor: #F39F21;
+$secondLight: #E8F1F5;
+$fontColor: #212121;
+$keyColor:  #E83C4F;
+$promoColor: #0d5727;
+$promoHover: #f39f22af;
+$bgContacto: rgba($color: #54B519, $alpha: .8);
+$bgSqui: #78c4db;
+$bgPika: #fae642;
+$bgChar: #ff953a;
+$bgBulb: #6acead;

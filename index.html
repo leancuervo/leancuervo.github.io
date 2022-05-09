@@ -7,67 +7,273 @@
     <link rel="icon" href="img/extrusor.ico">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/d86f76aeb9.js" crossorigin="anonymous"></script>
+    <meta name="robots" content="noindex">
+    <meta name="keyframe" content="piezas impresas, catálogo, accesorios, personajes">
+    <meta name="description" content="Catálogo de productos, excelente oportunidad para encontrar lo que buscas">
+    <meta name="author" content="Leandro Tognetti">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>Marleen 3D</title>
 </head>
 <body>
     <header>
-        <div class="topheader">
-            <p><a href="">Ofertas para todos</a></p>
-        </div>
-        <nav class="navbar">
-            <a href="index.html">
-                <img src="img/logo_marleen.svg" alt="LOGO MARLEEN 3D">
-            </a>
-            <ul>
-                <li><a href="catalogo.html">Catálogo</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="micuenta.html">Mi Cuenta</a></li>
-            </ul>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-marleen1">
+            <div class="container-fluid contenedorLogo">
+            <a class="navbar-brand" href="index.html"
+                ><img
+                src="img/logo_marleen.svg"
+                alt="logo marleen 3d"
+                class="imglogo"
+            /></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="login.html">Mi Cuenta</a>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
 
+        <div>
+
+        </div>
+
     </header>
-    
-        <div class="contenedor__cards" id="card1">
-            <div class="img-card">
-                <img src="img/img1.JPG" alt="Imagen 1 Catálogo Marleen 3D">
+
+<!-- SEPARADOR-->
+
+    <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner colorCar ">
+            <div class="carousel-item active">
+                <img src="img/fullscreen/fs7.png" class="d-block w-100" alt="Marleen 3D Index Propuesta Galeria Inicio">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h3>INCREIBLES IMPRESIONES</h3>
+                    <p>El poder de la impresión 3D, nos permite obtener increibles resultados. 
+                        <a href="galeria.html">Visita nuestra galeria</a>
+                    </p>
+                </div>
             </div>
-            <div class="contenedor-flechas">
-                <i class="fa-solid fa-chevron-left"></i>
-                <i class="fa-solid fa-chevron-right"></i>
+            <div class="carousel-item">
+                <img src="img/fullscreen/fs6.png" class="d-block w-100" alt="Marleen 3D Index Propuesta Galeria Inicio">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h3>MATERIALES Y USOS</h3>
+                    <p> No todos los materiales sirven al mismo proposito. <a href="faq.html">¡Veamos mas!</a> </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/fullscreen/fs3.png" class="d-block w-100" alt="Marleen 3D Index Propuesta Galeria Inicio">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h3>¿TE GUSTO UN MODELO?</h3>
+                    <p>Ponte en contacto y pronto sera tuyo. <a href="contacto.html">Contactanos</a></p>
+                </div>
             </div>
         </div>
-        
-        <footer class="footer" id="footer">
-            <a href="index.html">
-                <img
-                src="img/footerlogo.png"
-                alt="Logo Marleen 3D"
-                class="footerlogo"/>
-            </a>
-            <div class="redes-iconos-contenedor">
-              <a
-                href="http://www.whatsapp.com/"
-                class="redes-iconos"
-                target="_blank"
-              ></a>
-              <a href="http://www.fb.com/" class="redes-iconos" target="_blank"></a>
-              <a
-                href="http://www.instagram.com/"
-                class="redes-iconos"
-                target="_blank"
-              ></a>
-            </div>
-            <ul class="footer-menu-contenedor">
-                <li class="menu-item"><a href="index.html">Inicio</a></li>
-                <li class="menu-item"><a href="micuenta.html">Mi Cuenta</a></li>
-                <li class="menu-item"><a href="catalogo.html">Catalogo</a></li>
-            </ul>
-            <span class="copyright"
-              >&copy;2022, Marleen3D, Todos los derechos reservados.</span
-            >
-          </footer>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!-- SEPARADOR-->
+<div id="spaceIndex">
+    <h2>Preguntas frecuentes - FAQ</h2>
+</div>
+<!-- CARDS INICIO -->
 
-    
+<div id="faq">
+    <div class="container-md mt-5 ">
+
+
+        <div class="row ">
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/square/sq1.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-box1">
+                        <h3>Materiales</h3>
+                        <p class="card-text">
+                            Aqui te explicamos como son y para que se usa cada material disponible en el mercado.
+                            <a href="faq.html"> Hechar un vistazo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/square/sq2.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-box2">
+                        <h3>Aplicaciones</h3>
+                        <p class="card-text">Aprende a utilizar de forma adecuada tus impresoras 3D para obtener resultado increibles.
+                            <a href="faq.html"> Descubre mas</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/square/sq3.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-box3">
+                        <h3>Impresoras</h3>
+                        <p class="card-text">Breve explicación de como funcionan las impresoras y cual es optima para ti.
+                            <a href="faq.html">¡Vamos allí!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+      </div>
+    </div>  
+  </div>
+<!-- SEPARADOR-->
+    <div id="spaceIndex">
+        <h2>Atajos</h2>
+    </div>
+    <!-- Contacto y Login-->
+    <div id="contactLog" >
+        <div class="container-sm p-5 ">        
+            <div class="row justify-content-center align-items-center">
+            
+                <div class="col-12">
+                    <div class="row justify-content-md-center"> <!--FIRST ROW-->
+                    <div class="col p-1">
+                        <div class="card bgSqui text-white">   
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/square/sq5.png" class="w-100"  alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                <h3 class="card-title">Contacto</h3>
+                                </div><!--card-body-->
+                            </div><!--col-->
+                            </div><!--row-->
+                        </div><!--CARD-->
+                        </div><!--COLUMN-->
+                        
+                        <div class="col p-1">
+                            <div class="card bgPika text-black">   
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                        <h3 class="card-title">Iniciar Sesión</h3>
+                                        </div><!--card-body-->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/square/sq6.png" class="w-100"  alt="...">
+                                    </div><!--col-->
+                                </div><!--row-->
+                            </div><!--CARD-->
+                        </div><!--COLUMN-->
+                    </div>
+
+
+                    <div class="row  justify-content-md-center"> <!--SECOND ROW-->
+                        <div class="col p-1">
+                        <div class="card bgChar text-white">   
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/square/sq7.png" class="w-100"  alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                <h3 class="card-title">Ver Galeria</h3>
+
+                                </div><!--card-body-->
+                            </div><!--col-->
+                            </div><!--row-->
+                            </div><!--CARD-->
+                        </div><!--COLUMN-->
+
+                            <!--ESPACIO-->
+
+                        <div class="col p-1">
+                            <div class="card bgBulb text-white">   
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                        <h3 class="card-title">Preguntas Frecuentes</h3>
+                                        </div><!--card-body-->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="img/square/sq4.png" class="w-100"  alt="...">
+                                    </div><!--col-->
+                                </div><!--row-->
+                            </div><!--CARD-->
+                        </div><!--COLUMN-->
+
+                        <!--ESPACIO FINAL-->
+
+                    </div> <!--SECOND ROW-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer " id="footer">
+        <a href="index.html">
+            <img
+            src="img/footerlogo.png"
+            alt="Logo Marleen 3D"
+            class="footerlogo"/>
+        </a>
+        <div class="redes-iconos-contenedor">
+            <a
+            href="http://www.whatsapp.com/"
+            class="redes-iconos"
+            target="_blank"
+            ></a>
+            <a href="http://www.fb.com/" class="redes-iconos" target="_blank"></a>
+            <a
+            href="http://www.instagram.com/"
+            class="redes-iconos"
+            target="_blank"
+            ></a>
+        </div>
+        <ul class="footer-menu-contenedor">
+            <li class="menu-item"><a href="index.html">Inicio</a></li>
+            <li class="menu-item"><a href="login.html">Mi Cuenta</a></li>
+            <li class="menu-item"><a href="galeria.html">Galeria</a></li>
+        </ul>
+        <span class="copyright"
+            >&copy;2022, Marleen3D, Todos los derechos reservados.</span
+        >
+    </footer>
+
 </body>
 </html>

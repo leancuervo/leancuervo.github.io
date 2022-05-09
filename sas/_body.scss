@@ -1,0 +1,229 @@
+
+
+// inicio del nesting en el body de index
+
+#spaceIndex{
+    display: flex;
+    height: 80px;
+    background-color: #121212;
+    font-size: 2.5em;
+    justify-content: start;
+    align-items: center;
+    padding-left:30px ;
+    font-family: 'Heebo', sans-serif;
+    h2{
+        color: $mainColor;
+        
+    }
+}
+
+.colorCar{
+
+    h3{
+        color: $fontColor;
+        font-size: 2.25em;
+        font-weight: 500;
+    }
+    p{
+        color: $fontColor;
+        font-weight: 500;
+        font-size: 1em;
+        a{
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1.25em;
+            color: $promoColor;
+        }
+    }
+}
+
+// fin fila 1
+
+
+// inicio del nesting en el body de mi cuenta
+
+.contenedorLogin{
+    background-color: $mainColor;
+}
+#contenedorLogin{
+    background-color: $secondColor;
+}
+
+// fin del nesting en el body de mi cuenta
+
+
+
+
+
+
+
+
+.bg-box1{
+    background-color: $secondLight;
+    h3, p{
+        color: $fontColor;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        a{
+            text-decoration: none;
+            color: $keyColor;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+}
+
+.bg-box2{
+    background-color: $fontColor;
+    h3, p{
+        color: $mainColor;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+}
+
+.bg-box3{
+    background-color: $promoColor;
+    h3, p{
+        color: #FFF;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        a{
+            text-decoration: none;
+            color: $mainColor;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    }
+}
+
+
+// colores de selector
+#contactLog{ 
+    .bgSqui{
+        background-color:  $bgSqui !important;
+    }
+
+    .bgPika{
+        background-color: $bgPika !important;
+    }
+
+    .bgChar{
+        background-color: $bgChar !important;
+    }
+
+    .bgBulb{
+        background-color:  $bgBulb !important;
+    }
+
+}
+
+
+    footer{
+        width: 100%;
+        max-height: 300px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        padding: 2rem;
+        background-color: rgba(14, 14, 14, .8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .footerlogo {
+            height: 50px;
+            margin-bottom: 1rem;
+        
+        }
+        .redes-iconos-contenedor, .footer-menu-contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .redes-iconos{
+            height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            border: 1px solid rgb(83, 83, 83);            
+            background-position: center;
+            background-size: 40%;
+            background-repeat: no-repeat;
+            margin: .5rem;
+    
+            .redes-iconos:hover{
+                background-color: #121212;
+                filter: invert(1);
+            }
+            
+    
+        }
+    }
+
+    .redes-iconos:nth-of-type(1){
+        background-image: url(../img/whatsblanco.png);
+    }
+    .redes-iconos:nth-of-type(2){
+        background-image: url(../img/fblanco.png);
+    }
+    .redes-iconos:nth-of-type(3){
+        background-image: url(../img/instablanco.png);
+    }
+    
+    
+
+    
+  
+    
+ 
+    
+    .footer-menu-contenedor{
+        list-style-type: none;
+        color: #f2f2f2;
+        font-size: 1.2rem;
+
+        a{
+            color: #f2f2f2;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .menu-item{
+            margin: 1rem 1.5rem;
+            cursor: pointer;
+            opacity: .6;
+        
+        }
+        .menu-item:hover{
+            opacity: 1;
+        }
+    }
+
+    
+    .copyright{
+        color: #f2f2f2;
+        opacity: .3;
+        text-align: center;
+    }
+    
